@@ -13,7 +13,7 @@ export default function Header({ photo }: { photo?: string }) {
           height={24}
         />
         <h1 className="sm:text-3xl text-xl font-bold ml-2 tracking-tight">
-          roomAI
+          RoomAI
         </h1>
       </Link>
       {/* TODO: Eventually add a dropdown where folks can click to logout and buy credits */}
