@@ -24,7 +24,7 @@ export default function Dashboard({ rooms }: { rooms: Room[] }) {
         {rooms ? (
           <p className="text-gray-300">
             Browse through your previous room generations below. Any feedback?
-            Email hassan@hey.com
+            Email info@roomai.zyx
           </p>
         ) : (
           <p className="text-gray-300">
