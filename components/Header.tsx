@@ -38,7 +38,6 @@ export default function Header({ photo }: { photo?: string }) {
             height={28}
           />
         </div>
-      ) : (
       )}
     </header>
   );
