@@ -12,7 +12,7 @@ export type roomType =
   | "Bathroom"
   | "Office"
   | "Kitchen"
-  | "Garden";
+  | "Garden"
   | "Gaming Room";
 
 export const themes: themeType[] = [
