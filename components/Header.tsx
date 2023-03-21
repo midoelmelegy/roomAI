@@ -41,7 +41,7 @@ export default function Header({ photo }: { photo?: string }) {
       ) : (
         <a
           className="flex max-w-fit items-center justify-center space-x-2 rounded-full border border-blue-600 text-white px-5 py-2 text-sm shadow-md hover:bg-blue-500 bg-blue-600 font-medium transition"
-          href="https://www.roomai.xyz/"
+          href="/dream"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -57,10 +57,10 @@ function Github({ className }: { className?: string }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="20"
-      height="20"
+      width="0"
+      height="0"
       fill="currentColor"
-      viewBox="0 0 24 24"
+      viewBox="0 0 0 0"
       className={className}
     >
     </svg>
